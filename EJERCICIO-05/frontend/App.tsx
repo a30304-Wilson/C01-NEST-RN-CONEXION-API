@@ -8,10 +8,6 @@ export default function App() {
   const [mensaje, setMensaje] = useState('');
 
   const cargarMensaje = async () => {
-    
-    setMensaje('El botón funciona');
-
-    /*
     try {
       const respuesta = await fetch(API_URL + '/mensaje');
       const datos = await respuesta.json();
@@ -20,7 +16,6 @@ export default function App() {
     } catch (error) {
       setMensaje('Error al conectar: ' + String(error));
     }
-    */
   };
 
   return (
